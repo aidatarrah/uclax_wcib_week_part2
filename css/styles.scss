@@ -1,9 +1,60 @@
+$font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 body {
-		background-image: url("../image/new_background.jpg");
-		background-repeat: no-repeat;
-		font-family: sans-serif;
-	img {
+  font-family: $font-family;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  word-spacing: .1rem;
+  background: url(../image/new_background.jpg) center no-repeat fixed;
+  background-position: center;
 
+.logo {
+   width: 170px;
+   margin-left: 450px;
+   padding-top: 22px;
+   position: fixed;
 	}
-iframe { border: 0; }
+  p {
+    position: absolute;
+    margin-top: 1920px;
+    margin-left: -100px;
+  }
+
+  ol {
+    position: absolute;
+    padding-top: 50px;
+    margin-top: 2400px;
+  }
+iframe {
+  border: 0;
+  position: absolute;
+  padding-top: 1040px;
+  padding-left: 660px;
+  align-items: center;
+ }
+ .album {
+position: absolute;
+margin-top: 1445px;
+padding-left: 800px;
+}
+
+p {
+  text-align: left;
+  margin-left: 350px;
+  margin-top: 1760px;
+}
+ol {
+  margin-left: 320px;
+  margin-top: 1960px;
+  padding-bottom: 40px;
+}
+footer{
+  padding-bottom: 0px;
+  position: fixed;
+}
+a:hover {
+   text-decoration: none;
+ }
+ a:link {
+   color: white;
+ }
 }

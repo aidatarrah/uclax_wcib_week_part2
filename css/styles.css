@@ -1,6 +1,45 @@
 body {
-  background-image: url("../image/new_background.jpg");
-  background-repeat: no-repeat;
-  font-family: sans-serif; }
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  word-spacing: .1rem;
+  background: url(../image/new_background.jpg) center no-repeat fixed;
+  background-position: center; }
+  body .logo {
+    width: 170px;
+    margin-left: 450px;
+    padding-top: 22px;
+    position: fixed; }
+  body p {
+    position: absolute;
+    margin-top: 1920px;
+    margin-left: -100px; }
+  body ol {
+    position: absolute;
+    padding-top: 50px;
+    margin-top: 2400px; }
   body iframe {
-    border: 0; }
+    border: 0;
+    position: absolute;
+    padding-top: 1040px;
+    padding-left: 660px;
+    align-items: center; }
+  body .album {
+    position: absolute;
+    margin-top: 1445px;
+    padding-left: 800px; }
+  body p {
+    text-align: left;
+    margin-left: 350px;
+    margin-top: 1760px; }
+  body ol {
+    margin-left: 320px;
+    margin-top: 1960px;
+    padding-bottom: 40px; }
+  body footer {
+    padding-bottom: 0px;
+    position: fixed; }
+  body a:hover {
+    text-decoration: none; }
+  body a:link {
+    color: white; }
